@@ -32,7 +32,7 @@ const Articles =()=>{
         <Container>
         <Row className="mt-5">
           {articles.map((article, i) => (
-            <Col md={4} key={i}>
+            <Col md={4} key={i} className="mb-2">
               <SingleArticle article={article} />
             </Col>
           ))}
